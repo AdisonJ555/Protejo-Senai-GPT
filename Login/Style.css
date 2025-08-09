@@ -1,0 +1,35 @@
+.titulo {
+    font-size: 76px;
+}
+
+.robo-image {
+
+background-color: blue;
+
+width: 50vw; /* largura da pagina */ 
+
+height: 100vh; /* autura da pagina */
+
+}
+.page-conteiner {
+
+     display: flex; /* um ao lado do outro */
+
+}
+
+.login-container {
+    
+    background-color: aquamarine;
+
+   width: 50vw; /* largura da pagina */ 
+   height: 100vh; /* autura da pagina */
+
+
+   /* kit sobrevivncia da centralizaçao */
+   display: flex; /* ativar ao flex */
+   flex-direction: column; /* mudar flex para colunas */
+   align-items: center;
+   justify-content: center;
+}
+
+
