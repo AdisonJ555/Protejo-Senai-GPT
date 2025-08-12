@@ -1,14 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{                /*todos os elementos*/
+
+      padding:  0px; /*margen interna*/
+      margin: 0px; /*margen externa*/
+      box-sizing: border-box; /*muda a estrutura de espaçamento*/ 
+      font-family: "inter"; /*FONTE*/
+
+}
+
 .titulo {
+
     font-size: 76px;
+    font-family: 'inter' ;
 }
 
 .robo-image {
 
-background-color: blue;
+    background-image: url(../assets/imgs/Rectangle\ 1.png) ;
+    background-size: cover; /*para ajustar a img automatico*/
+    background-position: 0px -90px; /*definir posição*/
 
-width: 50vw; /* largura da pagina */ 
+   /* background-color:;*/
 
-height: 100vh; /* autura da pagina */
+    width: 50vw; /* largura da pagina */ 
+
+    height: 100vh; /* autura da pagina */
 
 }
 .page-conteiner {
@@ -19,17 +36,33 @@ height: 100vh; /* autura da pagina */
 
 .login-container {
     
-    background-color: aquamarine;
+    /*background-color:;*/
 
    width: 50vw; /* largura da pagina */ 
    height: 100vh; /* autura da pagina */
 
 
-   /* kit sobrevivncia da centralizaçao */
+                      /* kit sobrevivncia da centralizaçao */
    display: flex; /* ativar ao flex */
    flex-direction: column; /* mudar flex para colunas */
    align-items: center;
    justify-content: center;
 }
 
+.logo {    
 
+}
+
+
+.classe {  /*com ponto antes*/
+
+}
+#id{    /* com # antes*/
+
+}
+img{   /*sem nenhum prefixo*/
+
+}
+.login-container img{ height: 60px; 
+
+}
