@@ -25,6 +25,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-right: 1px solid #2b2a2a;
 
 }
 
@@ -36,17 +37,17 @@
     flex-direction: column; /* mudar flex para colunas */
     align-items: center;
     justify-content: center;
-    background-color: wheat;
-
+    background-color: white;
+    padding: 16;
 }
 
 .top{
 
     width: 100%;
     min-height: 300px;
-
+    padding: 12;
     background-color: white;
-    
+    border: #1C1C1C;
     
 }
 
@@ -57,12 +58,13 @@
 
     background-color:white;
     color: black;
+    padding: 12;
     
 }
 
 .bt1 {
 
-    width: 242px;
+    width: 100%;
     height: 48px;
     margin-bottom:4;
     border: 1px;
@@ -72,10 +74,10 @@
     text-align: left;
 
 }
+/*espaço i e para edita o icone*/
+.btn-chat {
 
-.btn1 {
-
-width:242px ;
+width:100% ;
 height:40px ;
 margin-bottom:4 ;
 border:20px;
@@ -86,12 +88,12 @@ border-radius: 10px;
 
 .bt2 {
 
-    width: 242px;
+    width: 100% ;
     height: 48px;
     margin-bottom:4;
     border: 1px;
     border-radius: 10px;
-    background-color: white;
+    background-color: white ;
     padding: 12;
     text-align: left; /*alinhar na direita ou esquerda*/
 
@@ -101,47 +103,39 @@ border-radius: 10px;
 
     width:446px;
     height:101px;
-    margin-bottom: 16px;
+    margin-bottom: 50px;
+    margin-left:1vh ;
+    margin-right:1vh ;
 }
 
 .inf {
      
     width: 920px;
     height: 272px;
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-    margin-bottom: 20px;
+    background-color: rgb(14, 146, 65);
+    max-width: 75%;
+    
 }
 
-.bx1 {
-
-    width: 242px;
-    height: 48px;
-    margin-bottom:4;
-    border: 1px;
-    border-radius: 10px;
-    background-color: white;
-    padding: 12;
-    text-align: left; /*alinhar na direita ou esquerda*/
-
-}
 
 .exa {
-    margin-left:75.5;
+    margin-left:50;
     width: 280px;
-    height: 80px;
     margin-bottom:4;
     border: 1px;
     border-radius: 16px;
-    background-color: white;
+    background-color: rgb(245, 4, 213);
     padding: 12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
-.dica {
 
-width: 280px;
-height: 48px;
+.bx1 {
 
+    display: flex;
+    flex-direction: column;
+    margin-bottom:16;
 }
