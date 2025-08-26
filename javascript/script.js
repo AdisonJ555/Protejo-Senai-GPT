@@ -7,15 +7,15 @@ console.log("Hello World!");
 
 // alert("Meu nome e " + nome + ", tenho tantos " + idade);
 
-let idade = prompt("Qual e a idade");
+let idade = prompt("Qual e sua idade");
 
 if (idade >= 18 ) {
     alert("Parabéns! Voce pode ser Preso"); 
 
 } else 
-    alert("VAU CHAMAR SUA MÃE!!")
+    alert("VAU CHAMAR SUA MÃE!!");
 
-    let idade = prompt("Qual sua idade");
+    
 
 
 
